@@ -7,7 +7,7 @@ Layered architecture: **Controller → Service (interface + impl) → Repository
 1. Install Java 17+, Maven, MySQL.
 2. Edit the password in `src/main/resources/application.properties` (database `rideshare_lite` is created automatically).
 3. `mvn spring-boot:run`
-4. Open <http://localhost:8080> (UI) — or call the REST API with Postman/Swagger-style requests below.
+4. Open <http://localhost:8081> (UI) — or call the REST API with Postman/Swagger-style requests below.
 5. Run the business-rule tests: `mvn test`
 
 ## Features → endpoints
